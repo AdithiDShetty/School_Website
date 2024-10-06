@@ -5,6 +5,7 @@
 }
 body {
         font-family: Arial, sans-serif;
+        overflow-x: hidden;
 }
     
 .firstblock {
@@ -111,11 +112,11 @@ p .special {
         padding: 20px;
         border-radius: 10px;
         background-color: #002b52;
-        color:orange;  
+        color:orange;
 }
 .threerow ul,li {
         list-style-type: none;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
 }
 .secinfo h3 {
         padding: 5px;
@@ -146,8 +147,8 @@ p .special {
         flex-direction:column;
         text-align:left;
 }
-.secinfo .CCal {
-        margin-bottom: -10px;
+.btm {
+        margin-bottom:-10px;
 }
 .Eve {
         padding-left: 10px;
@@ -235,7 +236,7 @@ p .special {
         color:#002b52;
         text-decoration: underline;
 }
-.testi {
+.cspceo {
         margin-top:60px;
         padding:15px;
 }
@@ -246,13 +247,13 @@ p .special {
         border-radius: 10px;
         margin:0 -5px;
 }
-.bluboxi {
+.hdboxi {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom:25px;
 }
-.bluboxi h2 {
+.hdboxi h2 {
         font-size: 24px;
         font-weight: bold;
         margin:0 10px;
@@ -319,4 +320,35 @@ p .special {
 }
 .tarrow:hover {
         color:white;
+}
+.gllyphto {
+        height:250px;
+        width:24%;
+        border:4px solid #002b52;
+        padding:3px;
+}
+.edtphto {
+        width:100%;
+        margin-left:21.5px;
+}
+#cspcet {
+        margin-top:60px;
+}
+.msn {
+        width:92%;
+        height:260px;
+        background-color: #002b52; 
+        border-radius: 18px; 
+        align-items: center;
+}
+.msnpara {
+        width:96%;
+        padding:40px 20px;
+        color:orange;
+        font-size: 26px;
+        font-family:Georgia,serif;
+}
+.specialx {
+        color:#FEBA4F;
+        text-shadow: 1px 1px 8px rgba(255, 255, 255,0.5);
 }
