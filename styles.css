@@ -128,7 +128,7 @@ p .special {
         font-size:20px;
 }
 .date {
-        background-color: orange;
+        background-color: #d3d3d3;
         color: #002b52;
         float:left;
         width:90px;
@@ -138,7 +138,7 @@ p .special {
         font-size: 16px;
         padding: 5px 4px;
         margin:0px 10px 4px -8px;
-        border: 2px solid white;
+        border: 2px solid #C25A00;
 }
 .CCal {
         padding-left: 10px;
@@ -193,7 +193,7 @@ p .special {
         margin: 0 auto;
         margin-left:-80px;
 }
-.orline {
+.orlinetwo {
         width: 10px; 
         background-color: orange; 
         border-radius: 10px;
@@ -232,6 +232,91 @@ p .special {
         font-weight: bold;
 }
 .knowus:hover {
-    color:#002b52;
-    text-decoration: underline;
+        color:#002b52;
+        text-decoration: underline;
+}
+.testi {
+        margin-top:60px;
+        padding:15px;
+}
+.orlineon {
+        width: 70px;
+        height: 3px; 
+        background-color: orange; 
+        border-radius: 10px;
+        margin:0 -5px;
+}
+.bluboxi {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom:25px;
+}
+.bluboxi h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin:0 10px;
+}
+.testibox {
+        display:flex;
+        width:100%;
+        height:410px;
+        background-color: #002b52; 
+        padding:15px;
+        padding-bottom:47px;
+        border-radius: 15px;
+        z-index:-1;
+        align-items: center;
+}
+.testipic {
+        margin-left:80px;
+        margin-top:37px;
+        z-index:1;
+}
+.testipic img {
+        height:350px;
+        width:260px;
+        border: 3px solid #C25A00;
+        padding:4px;
+        background-color: white;
+}
+.testiremarks {
+        background-color: orange;
+        margin-left:-280px;
+        margin-top:90px;
+        width:900px;
+        height:310px;
+        padding: 20px;
+        z-index:0;
+        border-radius:10px;
+}
+.testipara {
+        margin-left:44px;
+        padding:15px;
+        margin-top:43px;
+        position:relative;
+        color:#002b52;
+}
+.testistd {
+        position:absolute;
+        left:440px;
+        top:170px;
+}
+.testiremarks p {
+        font-family:Georgia,serif;
+        font-size: 20px;
+}
+.testiarrow {
+        margin-left:937px;
+        margin-top:-120px;
+        color:orange; 
+        display: flex;
+        flex-direction: column;     
+}
+.tarrow {
+        font-size: 100px;
+        margin-top:-37px;
+}
+.tarrow:hover {
+        color:white;
 }

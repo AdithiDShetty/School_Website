@@ -9,3 +9,6 @@ I have succesfully completed the 3 boxes of information with all the required CS
 
 <b>Iteration-04</b><br> 
 I have completed the next section which is about the About US box and the photo of our school with the orange line in between. This has been done with accordance to the design sent and based off suggestion given by others. With this completion I have completed aprrox 50% of the Home Page of the website. Still there are three more section left to be completed excluding the header and footer.
+
+<b>Iteration-05</b><br> 
+I have completed the Testimonal part of the Home Page with the Student Photo, text and More Remarks arrow. We can add more Student Testimonals after we learn JavaScript. I have also made some small changes in the other sections of the Home Page.
