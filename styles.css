@@ -337,18 +337,18 @@ p .special {
 .msn {
         width:92%;
         height:260px;
-        background-color: #002b52; 
+        background-color: orange; 
         border-radius: 18px; 
         align-items: center;
 }
 .msnpara {
         width:96%;
         padding:40px 20px;
-        color:orange;
+        color:#002b52;
         font-size: 26px;
         font-family:Georgia,serif;
 }
 .specialx {
-        color:#FEBA4F;
-        text-shadow: 1px 1px 8px rgba(255, 255, 255,0.5);
+        color:#002b52;
+        text-shadow: 2px 2px 8px rgba(0,0,0,60%);
 }
