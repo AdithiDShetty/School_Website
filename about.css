@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bordered-image {
+    border: 2px solid black; /* Add border to images */
+}
+
+.about-school {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.image {
+    width: 48%;
+    height: 200px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    width: 48%;
+    padding: 20px;
+}
+
+.text strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.spaced-text {
+    word-spacing: 0.2em; /* Adjust the value as needed */
+}
+
+.core-values-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: lightgrey;
+    margin: 10px 0;
+}
+
+.core-values-section h2 {
+    margin-bottom: 20px;
+}
+
+.core-values {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.arch-box {
+    width: 18%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.arch-box strong {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.arch-box p {
+    margin: 0;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.bottom-item {
+    background-color: lightgray;
+    width: 32%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 1.2em;
+}
