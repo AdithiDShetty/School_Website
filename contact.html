@@ -3,13 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us - School Name</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
-
 <body>
    <special-header></special-header>
+  <div class="image-container">
+        <img src="https://th.bing.com/th/id/R.859e74b4097495998e9cd1f2ebce81c1?rik=o7FVwgzaQACfNw&riu=http%3a%2f%2fthedailyrecord.com%2ffiles%2f2011%2f09%2f620kpPerdue_003sm.jpg&ehk=Rns9%2b0uSrIx%2fzQS1S0M17JLEXzhxKKDQD9CWnA%2f%2fxtk%3d&risl=&pid=ImgRaw&r=0" alt="Image Description">
+        <div class="slogan">Contact us</div>
+    </div>
+     <div class="container">
+        <div class="box center-align large-box">
+            <div class="heading">
+                <h2 class="main">Address</h2>
+            </div>
+            <div class="content">
+                <p class="main">1234 Learning Lane, Building 5<br>
+Knowledge City, Province/State 98765<br>
+United States.<br>Tel: (123) 456-7890<br>
+Email: info@evergreenacademy.edu</p>
+            </div>
+        </div>
+       <hr>
+       <br>
+        <div class="box">
+            <div class="heading">
+                <h2>Lower School</h2>
+            </div>
+            <div class="content">
+                <p>Building 1<br>
+Principal: Sarah Greene<br>
+Tel: (123) 456-7890 ext. 101<br>
+Email: sgreene@evergreenacademy.edu<br>
+Hours: 8:00 AM - 3:00 PM<br>
+
+Counseling Services:<br>
+Tel: (123) 456-7890 ext. 115<br>
+Email: counseling-lower@evergreenacademy.edu</p>
+            </div>
+        </div>
+        <div class="box right-align">
+            <div class="heading">
+                <h2>Middle School </h2>
+            </div>
+            <div class="content">
+                <p>Building 2<br>
+Principal: Michael Thompson<br>
+Tel: (123) 456-7891 ext. 201<br>
+Email: mthompson@evergreenacademy.edu<br>
+Hours: 8:30 AM - 3:30 PM<br>
+
+Counseling Services:<br>
+Tel: (123) 456-7891 ext. 220<br>
+Email: counseling-middle@evergreenacademy.edu<br>
+
+</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="heading">
+                <h2>High School</h2>
+            </div>
+            <div class="content">
+                <p>Building 3<br>
+Principal: Emily Roberts<br>
+Tel: (123) 456-7892 ext. 301<br>
+Email: eroberts@evergreenacademy.edu<br>
+Hours: 9:00 AM - 4:00 PM<br>
+
+Counseling Services:<br>
+Tel: (123) 456-7892 ext. 315<br>
+Email: counseling-high@evergreenacademy.edu</p>
+            </div>
+        </div>
+    </div>
+  <hr>
+  <div class="form-box">
+   <div class="form-container">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mobile">Mobile Number</label>
+            <input type="tel" id="mobile" name="mobile" required>
+
+            <label for="query">Your Query</label>
+            <textarea id="query" name="query" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+  </div>
+  <br>
+ 
    <special-footer></special-footer>
-   <script src="./headerFooterManager.js"></script>
+  <script defer src="./headerFooterManager.js"></script>
 </body>
 </html>

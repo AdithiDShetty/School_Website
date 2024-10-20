@@ -1,19 +1,55 @@
 class SpecialHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <p style="display: flex; justify-content: space-around; background-color: #eeeeee; padding: 10px;">
-            <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="event.html">Events</a>
-            <a href="academics.html">Academics</a>
-            <a href="contact.html">Contact</a>
-        </p>`
+       <div style="background-color: #002c53; padding: 20px; position: relative;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <!-- Logo and School Name -->
+            <div style="display: flex; align-items: center; position: relative; z-index: 1;">
+                <img src="https://i.pinimg.com/originals/35/b1/f3/35b1f31461c3a83ab53c5ee465fae2ce.png" alt="Logo" style="height: 150px; margin-right: 10px; position: absolute; top: -50px; z-index: 2;"> <!-- Increased height and top offset -->
+                <span style="color: white; font-size: 24px; font-weight: bold; margin-left: 170px;">School Name</span> <!-- Adjusted margin-left to avoid overlap -->
+            </div>
+            <nav style="flex: 1;">
+                <p style="display: flex; background-color: #ffffd; padding: 10px; justify-content: flex-end; width: 100%; margin: 0;">
+                    <a href="home.html" style="margin-left: 20px;">Home</a>
+                    <a href="about.html" style="margin-left: 20px;">About</a>
+                    <a href="event.html" style="margin-left: 20px;">Events</a>
+                    <a href="academics.html" style="margin-left: 20px;">Academics</a>
+                    <a href="contact.html" style="margin-left: 20px;">Contact</a>
+                </p>
+            </nav>
+        </div>
+    </div>`
     }
 }
 
 class SpecialFooter extends HTMLElement {
     connectedCallback() {
-        this.innerHTML = ""; 
+        this.innerHTML = `<div style="background-color: #002b5c; color: #ffffff; padding: 20px; display: flex; justify-content: center; align-items: center; text-align: center; flex-wrap: wrap;">
+    <div style="display: flex; align-items: center; margin-right: 20px;">
+        <img src="https://i.pinimg.com/originals/35/b1/f3/35b1f31461c3a83ab53c5ee465fae2ce.png" alt="School Logo" style="height: 170px; margin-right: 10px;">
+        <span style="font-weight: bold; margin-right: 20px;">Your School Name</span>
+        <div style="border-left: 2px solid #f98125; height: 60px; margin: 0 20px;"></div>
+    </div>
+    <div style="display: flex; align-items: center; flex-direction: column;">
+        <p style="margin: 0; line-height: 1.6;">123 Innovation Drive,<br>Greenwood, CA 90210</p>
+        <p style="margin: 0; line-height: 1.6;">Phone: (555) 123-4567</p>
+        <p style="margin: 0; line-height: 1.6;">Email: info@rcbacdemey.edu</p>
+    </div>
+    <div style="border-left: 2px solid #f98125; height: 60px; margin: 0 20px;"></div>
+    <div style="display: flex; align-items: center; font-weight: bold;">
+        <span>Follow us:</span>
+        <a href="https://www.facebook.com" style="margin-left: 10px;"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" style="height: 20px;"></a>
+        <a href="https://www.twitter.com" style="margin-left: 10px;"><img src="https://www.dreamstime.com/illustration/twitter-logo.html" alt="Twitter" style="height: 20px;"></a>
+        <a href="https://www.instagram.com" style="margin-left: 10px;"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="height: 20px;"></a>
+    </div>
+</div>
+<div style="background-color: #002b5c; color: #ffffff; text-align: center; padding: 10px 0;">
+    <p style="margin: 10px 0; margin-left: 20px;">&copy; 2024 Your School Name. All rights reserved.</p>
+    <div style="margin-left: 1px;">
+        <a href="#about" style="color: #00bfff; text-decoration: none; margin: 0 15px;">About Us</a> |
+        <a href="#contact" style="color: #00bfff; text-decoration: none; margin: 0 15px;">Contact Us</a>
+    </div>
+</div>`; 
     }
 }
 
