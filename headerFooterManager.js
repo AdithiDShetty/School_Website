@@ -1,7 +1,7 @@
 class SpecialHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-       <div style="background-color: #002c53; padding: 20px; position: relative;">
+      <div style="background-color: #002c53; padding: 20px; position: relative;">
         <div style="display: flex; justify-content: space-between; align-items: center;">
             <!-- Logo and School Name -->
             <div style="display: flex; align-items: center; position: relative; z-index: 1;">
@@ -18,13 +18,16 @@ class SpecialHeader extends HTMLElement {
                 </p>
             </nav>
         </div>
-    </div>`
+    </div>
+    `
+        
     }
 }
 
 class SpecialFooter extends HTMLElement {
     connectedCallback() {
-        this.innerHTML = `<div style="background-color: #002b5c; color: #ffffff; padding: 20px; display: flex; justify-content: center; align-items: center; text-align: center; flex-wrap: wrap;">
+        this.innerHTML = `
+        <div style="background-color: #002b5c; color: #ffffff; padding: 20px; display: flex; justify-content: center; align-items: center; text-align: center; flex-wrap: wrap;">
     <div style="display: flex; align-items: center; margin-right: 20px;">
         <img src="https://i.pinimg.com/originals/35/b1/f3/35b1f31461c3a83ab53c5ee465fae2ce.png" alt="School Logo" style="height: 170px; margin-right: 10px;">
         <span style="font-weight: bold; margin-right: 20px;">Your School Name</span>
@@ -49,10 +52,10 @@ class SpecialFooter extends HTMLElement {
         <a href="#about" style="color: #00bfff; text-decoration: none; margin: 0 15px;">About Us</a> |
         <a href="#contact" style="color: #00bfff; text-decoration: none; margin: 0 15px;">Contact Us</a>
     </div>
-</div>`; 
+</div>
+`; 
     }
 }
 
 customElements.define('special-header', SpecialHeader);
 customElements.define('special-footer', SpecialFooter);
-
