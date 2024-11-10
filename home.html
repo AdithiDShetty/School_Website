@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="headerFooterManager.js" defer></script>
 </head>
 
 <body>
@@ -84,9 +85,9 @@
             <h2>TESTIMONIALS</h2>
             <span class="orlineon"></span>
         </div>
-        <div class="testibox">
+        <div id="box1" class="testibox">
             <div class="testipic">
-                <img src="Pictures/BoyTestimonal.png" alt="John Stones's Photo">
+                <img src="Pictures/BoyTestimonal01.png" alt="John Stones's Photo">
             </div>
             <div class="testiremarks">
                 <p class="testipara">"I left the school two years ago, but the lessons and values I learned here continue to guide me every day. This school not only 
@@ -94,7 +95,19 @@
                     in the right direction, empowering me to follow my passion with confidence. I will always be grateful for the role this school played in shaping my future."
                     <br><span class="testistd">--&nbsp;&nbsp;John Stones, Class of 2022.</span>
                 </p>
-                <p class="testiarrow">MORE<br>REMARKS<br><span class="tarrow">→</span></p>
+                <p class="testiarrowr">MORE<br>REMARKS<br><button class="tarrowr" onclick="showNextBox()">→</button></p>
+            </div>
+        </div>
+        <div id="box2" class="testibox" style="display:none;">
+            <div class="testipic">
+                <img src="Pictures/BoyTestimonal02.png" alt="Kevin's Photo">
+            </div>
+            <div class="testiremarks">
+                <p class="testipara">"Attending this school was a transformative experience for me. The supportive teachers and innovative curriculum helped me unlock my full potential,
+                     both academically and personally. I am deeply grateful for the guidance and opportunities that have shaped my future success.The diverse extracurricular activities 
+                     allowed me to explore my passions and develop leadership skills. I will always cherish the lifelong friendships and invaluable lessons I gained during my time here."
+                    <br><span class="testistd">--&nbsp;&nbsp;Kevin, Class of 2023.</span>
+                </p>
             </div>
         </div>
     </section>
