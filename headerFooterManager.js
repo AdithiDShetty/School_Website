@@ -63,6 +63,8 @@ class SpecialFooter extends HTMLElement {
 
 customElements.define('special-header', SpecialHeader);
 customElements.define('special-footer', SpecialFooter);
+
+
 const form = document.getElementById('form');  
 const firstName = document.getElementById('firstName');  
 const lastName = document.getElementById('lastName');  
