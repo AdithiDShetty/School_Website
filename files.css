@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.content {
+    max-width: 800px;
+    margin: auto;
+}
+.back-link {
+    display: block;
+    margin-top: 20px;
+    color: #002C53;
+    text-decoration: none;
+}
+.section {
+  
+    margin-bottom: 40px;
+}
+.section h2 {
+    color: #F98125;
+}
+.h1{
+font-style: italic;
+text-decoration: underline;
+}
+.image-container {
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+}
+.image-container img {
+    max-width: 30%;
+    height: auto;
+}
+.description-highlight{
+            background-color: #F1E3E3;
+              padding:20px;
+}
