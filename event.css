@@ -1,0 +1,99 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            padding: 0px;
+        }
+        header {
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            background-color: #002d80b7;
+        }
+        .description-box {
+            max-width: auto;
+            position: relative;
+            text-align: center;
+            background-color: #ffffff24;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .description-box img {
+            width: 100%;
+            height: auto;
+            opacity: 0.85;
+        }
+        .description-box .text {
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .description-box .text-container {
+            position: relative;
+            text-align: center;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            color: #020080;
+            font-weight: bold;
+            font-size: 20px;
+            background: rgba(255, 255, 255, 0.8);
+        }
+        .event-heading {
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+        .event-container {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .event-container img {
+            max-width: 300px;
+            height: auto;
+            margin-right: 20px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .image-description {
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: left;
+        }
+        .color {
+            color: rgb(255, 98, 0);
+            font-weight: 800;
+        }
+        .color2 {
+            color: rgb(0, 106, 255);
+            font-weight: 800;
+        }
+        .color3 {
+            color: #964B00;
+            font-weight: 800;
+        }
+        .color4 {
+            color: #964B00;
+            font-weight: 800;
+        }
+        .Bold {
+            font-weight: bold;
+        }
