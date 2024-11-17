@@ -53,8 +53,8 @@ class SpecialFooter extends HTMLElement {
 <div style="background-color: #002b5c; color: #ffffff; text-align: center; padding: 10px 0;">
     <p style="margin: 10px 0; margin-left: 20px;">&copy; 2024 Your School Name. All rights reserved.</p>
     <div style="margin-left: 1px;">
-        <a href="#about" style="color: #658ca4; text-decoration: none; margin: 0 15px;">About Us</a> |
-        <a href="#contact" style="color: #658ca4; text-decoration: none; margin: 0 15px;">Contact Us</a>
+        <a href="about.html" style="color: #658ca4; text-decoration: none; margin: 0 15px;">About Us</a> |
+        <a href="contact.html" style="color: #658ca4; text-decoration: none; margin: 0 15px;">Contact Us</a>
     </div>
 </div>
 `; 
