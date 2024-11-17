@@ -365,4 +365,10 @@ p .special {
         color:#002b52;
         text-shadow: 2px 2px 8px rgba(0,0,0,60%);
 }
-
+.ligblu {
+        text-decoration: none; 
+        color: #002b52;
+}
+.ligblu:hover {
+        color:#6B8E23;
+}
