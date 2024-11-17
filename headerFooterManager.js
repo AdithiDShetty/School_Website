@@ -10,7 +10,7 @@ class SpecialHeader extends HTMLElement
      <div style="display:flex; position:relative; z-index: 1;">
       <!-- Adjusted the margin and position for better alignment -->
       <img src="https://i.pinimg.com/originals/35/b1/f3/35b1f31461c3a83ab53c5ee465fae2ce.png" alt="Logo" style="height:150px; margin-right:10px; position:absolute; top: -40px; z-index: 2;">
-      <span style="color:#98FB98; font-size: 24px; font-weight: bold; margin-left: 150px;">EVERGREEN</span>
+      <span style="color:#fff; font-size: 24px; font-weight: bold; margin-left: 150px;">EVERGREEN</span>
      </div>
      <nav style="flex:1;">
       <!-- Ensured links are aligned properly -->
@@ -37,7 +37,7 @@ class SpecialFooter extends HTMLElement
      <div style="background-color:#002b5c; color:#ffffff; padding:20px; display:flex; justify-content:center; align-items:center; text-align:center; flex-wrap:wrap;">
      <div style="display:flex; align-items:center; margin-left:-10px;">
      <img src="https://i.pinimg.com/originals/35/b1/f3/35b1f31461c3a83ab53c5ee465fae2ce.png" alt="School Logo" style="height:170px; margin-right:15px;">
-     <span style="font-weight:bold; margin-right:20px; color:#98FB98; font-size:20px;">EVERGREEN</span>
+     <span style="font-weight:bold; margin-right:20px; color:#fff; font-size:20px;">EVERGREEN</span>
      <div style="border-left:2px solid #f98125; height:60px; margin:0 100px;"></div>
      </div>
      <div style="display:flex; flex-direction:column; margin-left:-20px;">
