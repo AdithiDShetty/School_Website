@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     margin: 0;
     padding: 0;
 }
@@ -19,26 +19,43 @@ body {
     object-fit: cover;
 }
 
-.bordered-image {
-    border: 2px solid black; /* Add border to images */
-}
 
 .about-school {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
+    padding: 2px;
     text-align: center;
+  width:1200px
+}
+.abt{
+  
+font-size: 50px;
+  font-weight: 700;
+}
+.p1{
+  font-size: 20px;
+  margin-top: -10px;
 }
 
 .content-section {
     display: flex;
     justify-content: space-between;
-    margin: 10px 0;
+    margin: 10px 50px;
 }
 
+
+
+
+.line {
+  border-right: 2px solid #f98125ff;
+    height: 300px; /* Adjust based on your image height */
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .image {
-    width: 48%;
-    height: 200px;
+    width: 40%;
+    height: 300px;
+    
 }
 
 .image img {
@@ -46,30 +63,45 @@ body {
     height: 100%;
     object-fit: cover;
 }
-
 .text {
     width: 48%;
-    padding: 20px;
+    padding: 40px;
+ 
 }
 
 .text strong {
     display: block;
-    margin-bottom: 10px;
-    font-size: 1.2em;
+    margin-bottom: 30px;
+    font-size: 2em;
     text-align: center;
 }
 
 .spaced-text {
     word-spacing: 0.2em; /* Adjust the value as needed */
+  font-size: 1.2em;
+  
 }
+hr {
+    width: 79.79%;
+    height: 0;
+    top: 33%;
+    left: 10.07%;
+    opacity: 1;
+    z-index: 9;
+    transform: rotate(180deg);
+    box-shadow: inset 0 0 0 1px #f98125ff, inset 0 0 1px 0 #f98125ff, inset 0 1px 0 0 #f98125ff, inset 1px 0 0 0 #f98125ff;
+    border: 1px solid #f98125ff;
+}
+
 
 .core-values-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: lightgrey;
+    background-color: #002c53;
     margin: 10px 0;
+  
 }
 
 .core-values-section h2 {
@@ -80,6 +112,11 @@ body {
     display: flex;
     justify-content: space-around;
     width: 100%;
+  font-size: 1.2em;
+}
+.core{
+font-size: 2em;
+  color: white;
 }
 
 .arch-box {
@@ -101,17 +138,25 @@ body {
 }
 
 .bottom-section {
+  font-size: 20px;
+  font-weight: 400;
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
+  border: 10px solid  #002c53;
+  
 }
 
 .bottom-item {
-    background-color: lightgray;
+
+  
+    background-color: white;
     width: 32%;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content:center;
     font-size: 1.2em;
+  border: 10px solid  #002c53;
+  
 }
