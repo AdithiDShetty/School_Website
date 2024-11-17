@@ -11,7 +11,8 @@
             width: 100%;
             text-align: center;
             padding: 20px;
-            background-color: #002d80b7;
+            background-color: #fff;
+          color:#F98125;
         }
         .description-box {
             max-width: auto;
